@@ -171,8 +171,69 @@ nav ul li a {
     width: 100%;
 }
 
+
+
+.text-center{
+    height: 50px;
+}
+.et-icon-browser.sm-shadow.icon-dark-slate-blue.icons.icon-lg{
+    height: 200px;
+}
+
 .citations-display{
     width: 60%;
     text-align: center;
     font-size: 24px;
+}
+
+.bloc-what-i-do{
+    background-image: url(/img/image-de-presentation.bmp);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.bloc-what-i-do ::before {
+    content: "";
+    background: url(/img/texture-paper.png);
+    background-size: 280px 280px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+.dodo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what-i-do-container{
+    margin-top: 65px ;
+    margin-bottom: 65px;
+    padding: 4%;
+    width: 50%;
+    background-color: rgba(165, 147, 99, 0.7);
+    height: auto;
+    text-align: center;
+}
+
+.text-centered{
+    color: #efefef!important;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.undertext-centered{
+    color: #efefef!important;
+}
+
+.link-go-page2{
+    color: #efefef!important;
 }
