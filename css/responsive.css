@@ -1,0 +1,12 @@
+@media screen and (max-width:426px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+
+        flex-wrap: wrap;
+    }
+}
