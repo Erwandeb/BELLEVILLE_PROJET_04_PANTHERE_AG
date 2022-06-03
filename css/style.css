@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("/img/bureau-background.JPG");
+    background-image: url("./img/bureau-background.JPG");
 }
 
 @media (max-width: 1024px) {
