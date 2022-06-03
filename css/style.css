@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("/img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("https://erwandeb.github.io/BELLEVILLE_PROJET_04_PANTHERE_AG/img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("/img/texture-paper.png");
+    background: url("https://erwandeb.github.io/BELLEVILLE_PROJET_04_PANTHERE_AG/img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .a-btn:hover,
@@ -738,6 +738,12 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
+
+.black-contrast{
+    color: #000000!important;
+}
+
+
 
 .portfolio-thumb {
     margin-bottom: 24px;
